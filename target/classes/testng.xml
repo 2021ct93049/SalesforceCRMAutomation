@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Salesforce Test Automation Test Suite">
+
+
+	<test name="Salesforce CRM Test Cases">
+		<!-- <classes>
+			<class name="com.salesforce.qa.testcases.AccountsPageTest"></class>
+		</classes> -->
+		
+		<!--<classes>
+			<class name="com.salesforce.qa.testcases.ContactsPageTest"></class>
+		</classes>-->
+		
+		<!-- <classes>
+			<class name="com.salesforce.qa.testcases.LeadsPageTest"></class>
+		</classes>-->
+		
+		<!--<classes>
+			<class name="com.salesforce.qa.testcases.CampaignsPageTest"></class>
+		</classes>-->
+		
+		<classes>
+			<class name="com.salesforce.qa.testcases.OpportunityPageTest"></class>
+		</classes>
+		
+	</test>
+	
+</suite>

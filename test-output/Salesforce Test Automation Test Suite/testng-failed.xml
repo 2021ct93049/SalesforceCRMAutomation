@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Salesforce Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Salesforce CRM Test Cases(failed)">
+    <classes>
+      <class name="com.salesforce.qa.testcases.OpportunityPageTest">
+        <methods>
+          <include name="createOpportunity"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesforce.qa.testcases.OpportunityPageTest -->
+    </classes>
+  </test> <!-- Salesforce CRM Test Cases(failed) -->
+</suite> <!-- Failed suite [Salesforce Test Automation Test Suite] -->
